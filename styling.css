@@ -1,0 +1,56 @@
+:root {
+    box-sizing: border-box;
+}
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background: linear-gradient(180deg, #231059, #151414);
+    height: 100vh;
+}
+
+.summary {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border: 3px solid blanchedalmond ;
+    width: 400px;
+    height: 400px;
+    text-align: center ;
+}
+
+.games {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+.option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(113, 93, 166);
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(6, 38, 88);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(110%); 
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transform: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;;
+    -moz-transform: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;;
+    -ms-transform: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;;
+    -o-transform: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;;
+}
